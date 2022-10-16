@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - print numbers 0 - 9 
+ * main - print numbers
  * Return: Always 0
  */
 int main(void)
 {
 	char nb;
 
-	for (nb = 0; nb < 10; nb++)
+	for (nb = 0; nb < 9; nb++)
 		putchar(nb);
 
 	putchar('\n');
