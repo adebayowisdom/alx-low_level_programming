@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	ichar ch;
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 
