@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints rizzbuzz
+ * main - prints fizzbuzz
  * Return: Always 0
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	{
 		printf(" ");
 		if (n % 3 == 0)
-			printf("fizz");
+			printf("Fizz");
 		if (n % 5 == 0)
 			printf("Buzz");
 		if (n % 3 != 0 && n % 5 != 0)
