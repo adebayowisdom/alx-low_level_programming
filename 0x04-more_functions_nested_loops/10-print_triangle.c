@@ -6,7 +6,7 @@
  */
 void print_triangle(int n)
 {
-	int n, tri;
+	int h, tri;
 
 	if (n > 0)
 	{
